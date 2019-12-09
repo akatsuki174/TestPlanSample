@@ -1,0 +1,39 @@
+{
+  "configurations" : [
+    {
+      "id" : "BD807B1E-98B9-451E-943F-BF89BA15AA36",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "commandLineArgumentEntries" : [
+
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TestPlanSample.xcodeproj",
+      "identifier" : "18C160A6239CAEB600BBD4D8",
+      "name" : "TestPlanSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TestPlanSample.xcodeproj",
+        "identifier" : "18C160BC239CAEBB00BBD4D8",
+        "name" : "TestPlanSampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:TestPlanSample.xcodeproj",
+        "identifier" : "18C160C7239CAEBB00BBD4D8",
+        "name" : "TestPlanSampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

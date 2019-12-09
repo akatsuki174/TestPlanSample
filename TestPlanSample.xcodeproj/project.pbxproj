@@ -55,6 +55,7 @@
 		18C160DB239CB40600BBD4D8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		18C160DF239CB47100BBD4D8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18C160E1239CB49E00BBD4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18C160E3239D2E9200BBD4D8 /* TestPlanSample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlanSample.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				18C160A9239CAEB600BBD4D8 /* TestPlanSample */,
+				18C160E3239D2E9200BBD4D8 /* TestPlanSample.xctestplan */,
 				18C160C0239CAEBB00BBD4D8 /* TestPlanSampleTests */,
 				18C160CB239CAEBB00BBD4D8 /* TestPlanSampleUITests */,
 				18C160A8239CAEB600BBD4D8 /* Products */,
