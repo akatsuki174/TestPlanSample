@@ -22,7 +22,7 @@ class TestPlanSampleUITests: XCTestCase {
         XCTAssertEqual(app.staticTexts["greetingLabel"].label, localizedString(key: "Top_title_label"))
     }
     
-    var currentLanguage: (langCode: String, localeCode: String)? {
+    private var currentLanguage: (langCode: String, localeCode: String)? {
         let currentLocale = Locale(identifier: Locale.preferredLanguages.first!)
         guard let langCode = currentLocale.languageCode else {
             return nil
@@ -36,7 +36,7 @@ class TestPlanSampleUITests: XCTestCase {
         return (langCode, localeCode)
     }
 
-    func localizedString(key:String) -> String {
+    private func localizedString(key:String) -> String {
         let localizationBundle = Bundle(path: Bundle(for: TestPlanSampleUITests.self).path(forResource: currentLanguage?.langCode, ofType: "lproj") ?? "")
         let result = NSLocalizedString(key, bundle:localizationBundle!, comment: "")        
         return result
