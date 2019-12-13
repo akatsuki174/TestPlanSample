@@ -2,9 +2,26 @@
   "configurations" : [
     {
       "id" : "BD807B1E-98B9-451E-943F-BF89BA15AA36",
-      "name" : "Configuration 1",
+      "name" : "Japanese",
       "options" : {
-
+        "language" : "ja",
+        "locationScenario" : {
+          "identifier" : "Tokyo, Japan",
+          "referenceType" : "built-in"
+        },
+        "region" : "JP"
+      }
+    },
+    {
+      "id" : "9A07B8CF-DC18-43E5-8652-53C63257593B",
+      "name" : "English",
+      "options" : {
+        "language" : "en",
+        "locationScenario" : {
+          "identifier" : "New York, NY, USA",
+          "referenceType" : "built-in"
+        },
+        "region" : "US"
       }
     }
   ],
